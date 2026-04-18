@@ -8,12 +8,12 @@ export const ADMINS: Admin[] = [
   },
   { 
     name: "Naimur Rahman", 
-    username: "WithNaimur", 
+    username: "Your_Himus", 
     logo: "https://github.com/With-ALIF/logo_zone/blob/main/person/naimur.png?raw=true" 
   },
   { 
     name: "Abdullah Al Khalid Alif", 
-    username: "@Your_Himus", 
+    username: "Your_Himus", 
     logo: "https://github.com/With-ALIF/logo_zone/blob/main/alif/logo.jpg?raw=true" 
   }
 ];
