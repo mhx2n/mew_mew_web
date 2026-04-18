@@ -9,7 +9,7 @@ export default function AuthHeader() {
         className="w-20 h-20 object-cover rounded-2xl shadow-lg border-2 border-white mb-4 flex-shrink-0" 
         referrerPolicy="no-referrer" 
       />
-      <h1 className="text-3xl font-extrabold text-blue-600 tracking-tight">TeleQuiz</h1>
+      <h1 className="text-3xl font-extrabold text-blue-600 tracking-tight">Mew Mew</h1>
       <p className="text-slate-500 text-sm font-medium">The Ultimate Telegram Quiz Platform</p>
     </div>
   );
