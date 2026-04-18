@@ -1,5 +1,5 @@
 {
-  "name": "TeleQuiz",
-  "description": "Generate Telegram quizzes from any text format using AI and send them directly to your channel.",
+  "name": "Mew Mew Quiz",
+  "description": "AI-powered Telegram quiz generator controlled by mhx2n.",
   "requestFramePermissions": []
 }
