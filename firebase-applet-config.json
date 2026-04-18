@@ -1,10 +1,9 @@
 {
-  "projectId": "studio-7304415693-e22fc",
-  "appId": "1:767583965585:web:c79c14de01df2cd6560a30",
-  "apiKey": "AIzaSyCLOkhgoH5Pw3XsuKXQJICSXyCmoy5YIMg",
-  "authDomain": "studio-7304415693-e22fc.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-909d2c2a-8bee-421b-81a9-5953cee551ca",
-  "storageBucket": "studio-7304415693-e22fc.firebasestorage.app",
-  "messagingSenderId": "767583965585",
-  "measurementId": ""
+  apiKey: "AIzaSyCE0v_OC5bFFvPVBTxxe1jkSiRQL_Db5WE",
+  authDomain: "target-web-quiz.firebaseapp.com",
+  projectId: "target-web-quiz",
+  storageBucket: "target-web-quiz.firebasestorage.app",
+  messagingSenderId: "248740540348",
+  appId: "1:248740540348:web:4b731481e85d82b28fc5b9",
+  measurementId: "G-M73L1Y0HM2"
 }
