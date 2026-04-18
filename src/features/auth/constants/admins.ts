@@ -2,8 +2,8 @@ import { Admin } from '../types';
 
 export const ADMINS: Admin[] = [
   { 
-    name: "Shuyaib Islam", 
-    username: "shu_yaib", 
+    name: "himu", 
+    username: "Your_Himus", 
     logo: "https://github.com/With-ALIF/logo_zone/blob/main/person/shuyaib.jpg?raw=true" 
   },
   { 
@@ -13,7 +13,7 @@ export const ADMINS: Admin[] = [
   },
   { 
     name: "Abdullah Al Khalid Alif", 
-    username: "ALIF1230", 
+    username: "@Your_Himus", 
     logo: "https://github.com/With-ALIF/logo_zone/blob/main/alif/logo.jpg?raw=true" 
   }
 ];
