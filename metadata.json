@@ -1,0 +1,5 @@
+{
+  "name": "TeleQuiz",
+  "description": "Generate Telegram quizzes from any text format using AI and send them directly to your channel.",
+  "requestFramePermissions": []
+}

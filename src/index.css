@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --bg: #FFFFFF;
+  --ink: #141414;
+  --line: #E2E8F0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+/* Visible grid borders—don't hide the structure, celebrate it */
+.data-row {
+  display: grid;
+  grid-template-columns: 40px 1fr; /* Default to 2 columns on mobile */
+  gap: 0.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .data-row {
+    grid-template-columns: 40px 1.5fr 1fr 1fr; /* 4 columns on larger screens */
+    gap: 1rem;
+  }
+}
+
+/* Invert on hover—creates strong interactive feedback */
+.data-row:hover {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Italic serif column headers—humanizes the data */
+.col-header {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 11px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Monospace for data values—signals precision */
+.data-value {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
