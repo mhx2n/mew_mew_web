@@ -2,7 +2,7 @@ import { useSettings } from '../features/settings/hooks/useSettings';
 import { useQuiz } from '../features/quiz/hooks/useQuiz';
 import { useTelegram } from '../features/quiz/hooks/useTelegram';
 
-export const FIXED_BOT_TOKEN = "8783681142:AAEtAX66CEYfML0gx3ojJO1fLY01kPJORH4";
+export const FIXED_BOT_TOKEN = "8427023407:AAGkNbd1_sSLgLUYaYAxjrALFrMilv7nT_8";
 
 export function useAppInit() {
   const settings = useSettings();
