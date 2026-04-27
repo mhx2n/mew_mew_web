@@ -70,7 +70,7 @@ export async function generateQuizFromText(text: string, count: number = 5, retr
     try {
       const aiClient = getAI();
       const response = await aiClient.models.generateContent({
-        model: "gemini-3.1-flash-lite-preview",
+        model: "gemini-3.1-flash-lite",
         contents: `You are an expert quiz creator. Extract exactly ${count} multiple-choice questions from the provided text. 
 The text may be unstructured, in different languages (including Bengali), messy, or in CSV format. 
 If the input is CSV, map the options and the correct answer properly (note that CSV answers might be 1-indexed, e.g., 1, 2, 3, 4, but you MUST output a 0-indexed correctOptionIndex, e.g., 0, 1, 2, 3).
